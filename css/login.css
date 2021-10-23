@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+.bg{
+  background: url("../img/login.jpg");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+}
+/* .container::before{
+  content: "";
+  background: rgba(6, 12, 34, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+} */
+.wrapper {
+  height: 100vh;
+}
+
+.tital{
+  color: #f8224979;
+}
+.myColor {
+  background-image: linear-gradient(to right,  #f8224981 50%, #a3213996 150%);
+}
+.myShadow {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+.myBtn {
+  border-radius: 50px;
+  border: 1px white;
+  font-size: 10px;
+  background-image: linear-gradient(to right, #fc6681 0%, #fd91a5 100%);
+  border: none;
+}
+.myBtn:hover {
+  background-image: linear-gradient(to right,  #fd91a5  0%, #fc6681 100%);
+}
+.myHr {
+  height: 2px;
+  border-radius: 100px;
+}
+.myLinkBtn {
+  border-radius: 100px;
+  width: 50%;
+  border: 2px solid #fff;
+}
+.myLinkBtn:hover{
+  background-color: #a32139;
+}
+@media (max-width: 720px) {
+  .wrapper {
+    margin: 2px;
+  }
+}
